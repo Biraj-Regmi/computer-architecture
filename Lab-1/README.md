@@ -33,7 +33,8 @@ This lab uses an open-source toolchain:
 - **GTKWave** – Waveform viewer
 
 ## Output
-![Waveform Output](<img width="1004" height="636" alt="lab1output" src="https://github.com/user-attachments/assets/d916ad97-4b42-4647-9765-a6312f966140" />
+![Waveform Output](<img width="1916" height="638" alt="lab1output" src="https://github.com/user-attachments/assets/9d642b26-4927-46fe-9731-343255bc9570" />
+
 
 
 
