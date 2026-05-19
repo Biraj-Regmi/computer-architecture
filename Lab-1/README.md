@@ -33,7 +33,8 @@ This lab uses an open-source toolchain:
 - **GTKWave** – Waveform viewer
 
 ## Output
-![Waveform Output](lab1output.png)
+![Waveform Output](<img width="1004" height="636" alt="lab1output" src="https://github.com/user-attachments/assets/5284f4fd-cb25-4b24-acf5-db7a4020db4e" />
+)
 
 ## Conclusion
 In this lab, the VHDL development environment was successfully installed and configured using VS Code, GHDL, and GTKWave. The basic structure of VHDL including library declarations, entity, and architecture was studied.A buffer circuit was implemented and simulated using a testbench. The simulation results confirmed that the output followed the input correctly, validating proper design behavior.
