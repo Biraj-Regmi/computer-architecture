@@ -26,7 +26,8 @@ The primary logical variants, their native VHDL keywords, and corresponding Bool
 ## 3. Simulation Trace & Waveform Graph
 The functional performance of each modeled gate was evaluated over a 40 ns test sequence. The resulting timing transitions monitored in GTKWave are illustrated below:
 
-![Simulation Waveform](<img width="1249" height="676" alt="Lab2Output" src="https://github.com/user-attachments/assets/bc6539a3-3bde-401c-81e1-496657719b4d" />
+![Simulation Waveform](<img width="1249" height="676" alt="Lab2Output" src="https://github.com/user-attachments/assets/7218ab5b-cf3e-4913-92b2-657acf537c00" />
+
  )
 
 ---
