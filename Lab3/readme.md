@@ -145,7 +145,8 @@ The waveforms were generated and verified in GTKWave to confirm proper operation
 
 The GTKWave simulation of the 4-to-2 priority encoder shows:
 
-![Encoder Waveform](encoder.png)
+![Encoder Waveform](<img width="1249" height="484" alt="Encoder Output" src="https://github.com/user-attachments/assets/7523c8e8-1057-44ea-b6a0-b83cbaf550b9" />
+)
 
 **Waveform Analysis:**
 - **Time 0-10 ns:** I = "0001" (I₀ active) → Y = "00", V = '1'
@@ -161,7 +162,8 @@ The waveform correctly demonstrates priority encoding, where when multiple input
 
 The GTKWave simulation of the 2-to-4 decoder shows:
 
-![Decoder Waveform](decoder.png)
+![Decoder Waveform](<img width="1252" height="500" alt="Decoder Output" src="https://github.com/user-attachments/assets/5ffe44ca-9342-494b-a08a-f6f39704c179" />
+)
 
 **Waveform Analysis:**
 - **Time 0-10 ns:** A = "00", EN = '1' → Y = "0001" (output Y₀ active)
