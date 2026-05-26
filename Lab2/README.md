@@ -1,3 +1,4 @@
+<img width="1249" height="676" alt="Lab2Output" src="https://github.com/user-attachments/assets/7218ab5b-cf3e-4913-92b2-657acf537c00" />
 # Lab 2: Hardware Description of Logic Gates via VHDL
 
 ## 1. Experimental Objective
