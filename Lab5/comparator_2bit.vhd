@@ -16,18 +16,10 @@ architecture Behavioral of COMPARATOR_2BIT is
 begin
     process(A, B)
     begin
-        if unsigned(A) = unsigned(B) then
-            EQ <= '1';
-            GT <= '0';
-            LT <= '0';
-        elsif unsigned(A) > unsigned(B) then
-            EQ <= '0';
-            GT <= '1';
-            LT <= '0';
-        else
-            EQ <= '0';
-            GT <= '0';
-            LT <= '1';
-        end if;
+        EQ <= not (A(1) xor B(1)) and not (A(0) xor B(0));
+
+        GT <= (A(1) and not B(1)) or (not (A(1) xor B(1)) and A(0) and not B(0));
+
+        LT <= (not A(1) and B(1)) or (not (A(1) xor B(1)) and not A(0) and B(0));
     end process;
 end architecture Behavioral;
